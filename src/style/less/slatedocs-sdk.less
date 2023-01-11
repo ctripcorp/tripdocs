@@ -1,0 +1,56 @@
+.editor_container_wrap {
+  height: 100%;
+
+  .editor-container div[id^='editorarea']::before {
+    content: '';
+    width: calc(100% - 140px);
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 74px;
+    margin: 4px 0;
+  }
+
+  // .editor-container div[id^='editorarea'] {
+  //   padding: 10px 60px 160px !important;
+  // }
+
+  div.placeholder-title {
+    top: 34px;
+    left: 74px;
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  div.placeholder-content {
+    top: 90px;
+    left: 74px;
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+  }
+
+  div.header-static-toolbar {
+    position: sticky;
+    background-color: #fff;
+    border-bottom: 1px solid #d8d8d8;
+    border-top: none;
+    z-index: 999;
+    top: 0;
+  }
+
+  div.comment-header {
+    top: 0 !important;
+    width: 269px !important;
+  }
+
+  div.ant-drawer {
+    position: absolute;
+  }
+}

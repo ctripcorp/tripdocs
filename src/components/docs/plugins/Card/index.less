@@ -1,0 +1,116 @@
+.editor_container_wrap {
+  height: 100%;
+
+  .card_pre {
+    left: -60px;
+    text-align: left;
+    bottom: 8px;
+    position: absolute;
+    width: 60px;
+    overflow: hidden;
+    outline: none;
+    text-align: left;
+    text-indent: 0;
+    flex: 0 0 auto;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    box-sizing: border-box;
+    text-align: right;
+    /* background: red; */
+    /* height: 100%; */
+    z-index: 99;
+  }
+
+  .card_suf {
+    right: -60px;
+    text-align: right;
+    bottom: 8px;
+    position: absolute;
+    width: 60px;
+    overflow: hidden;
+    outline: none;
+    text-align: left;
+    text-indent: 0;
+    flex: 0 0 auto;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    box-sizing: border-box;
+    /* background: red; */
+    /* height: 100%; */
+    padding-left: 1px;
+    z-index: 99;
+  }
+
+  .card {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 4px;
+    //   border: 1px solid #6da0e3;
+    // user-select: none;
+  }
+
+  .card.fake-selected2 .ant-alert,
+  .card.fake-selected2 pre,
+  .card.fake-selected2 .imageContainer,
+  .card.fake-selected2 table,
+  .card.fake-selected2 .card-hr {
+    background: rgba(168, 194, 255, 0.3) !important;
+    border-color: rgba(168, 194, 255, 0.3) !important;
+  }
+
+  .card.fake-selected2 pre {
+    &::before {
+      content: '';
+      background-color: rgba(180, 213, 254, 0.5);
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 8;
+      pointer-events: none;
+    }
+    div.cm-gutterElement {
+      &::selection {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .card.fake-selected2 .col-div-bar,
+  .card.fake-selected2 .row-div-bar,
+  .card.fake-selected2 .intersection-point,
+  .card.fake-selected2 .card_pre,
+  .card.fake-selected2 .card_suf {
+    display: none !important;
+  }
+
+  .card.fake-selected2 .table-inner-wrap {
+    overflow: hidden !important;
+  }
+
+  .table-inner-wrap {
+    // overflow: hidden !important;
+  }
+
+  .card.fake-selected2 table ::selection {
+    background: transparent !important;
+  }
+
+  // .card.fake-selected > *:not([class='card_pre']):not([class='card_suf']) {
+  //   background: rgba(168, 194, 255, 0.3);
+  //   border-color: rgba(168, 194, 255, 0.3);
+  // }
+
+  .card.fake-selected .cardbar.selected {
+    display: none !important;
+  }
+
+  .card-table-wrapper {
+    margin-left: 25px;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,111 @@
+.history-manager-drawer {
+  .ant-drawer-body {
+    background-color: #ebf1f4;
+    height: 100%;
+    .history-manager-wrap {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr minmax(200px, 20vw);
+      gap: 12px;
+      height: 100%;
+
+      .recover-doc-btn {
+        position: fixed;
+        right: 20px;
+        top: 10px;
+        // transform: translateX(-50%);
+        overflow: hidden;
+        color: white;
+      }
+
+      .history-version-list-item {
+        padding: 6px 12px;
+        cursor: default;
+        display: flex;
+        flex-direction: column;
+        // border-radius: 4px;
+
+        &:not(:first-child) {
+          margin-top: 12px;
+        }
+
+        .history-version-list-item-title {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          color: #787878;
+          font-size: 12px;
+          .list-item-title-left,
+          .list-item-title-right {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            &.list-item-title-left {
+              max-width: 60%;
+            }
+            .list-item-title-right {
+              max-width: 40%;
+            }
+          }
+        }
+        .history-version-list-item-info {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 12px;
+          .list-item-info-left,
+          .list-item-info-right {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            &.list-item-info-left {
+              max-width: 85%;
+            }
+            &.list-item-info-right {
+              max-width: 15%;
+              color: #1a4fe9;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .history-manager-main {
+        height: 100%;
+        width: 100%;
+        max-width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+      }
+
+      .history-manager-side {
+        height: 100%;
+        overflow: hidden;
+
+        .history-manager-side-list {
+          height: calc(100% - 38px);
+          overflow-y: auto;
+        }
+
+        .history-manager-side-btn {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          height: 32px;
+          margin-top: 6px;
+        }
+      }
+    }
+
+    .editor_container_wrap {
+      .card_suf,
+      .card_pre {
+        display: none !important;
+      }
+    }
+  }
+}

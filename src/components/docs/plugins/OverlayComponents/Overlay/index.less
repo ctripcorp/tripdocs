@@ -1,0 +1,19 @@
+.overlay-tmp-wrap {
+  display: block;
+  z-index: 200;
+  position: absolute;
+
+  .overlay-tmp {
+    position: absolute;
+    display: flex;
+    z-index: 200;
+    // padding: 2px;
+    background-color: white;
+
+    &.overlay-tmp-bordered {
+      border-radius: 4px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+      border: 1px solid #dee0e3;
+    }
+  }
+}

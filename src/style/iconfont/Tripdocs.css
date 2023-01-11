@@ -1,0 +1,401 @@
+@font-face {
+  font-family: 'Tripdocs';
+  src: url('Tripdocs.eot?t=1651041473420'); /* IE9*/
+  src: url('Tripdocs.eot?t=1651041473420#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('Tripdocs.woff2?t=1651041473420') format('woff2'),
+    url('Tripdocs.woff?t=1651041473420') format('woff'), url('Tripdocs.ttf?t=1651041473420') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('Tripdocs.svg?t=1651041473420#Tripdocs') format('svg'); /* iOS 4.1- */
+}
+
+[class^='Tripdocs-'],
+[class*=' Tripdocs-'] {
+  font-family: 'Tripdocs' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Tripdocs-search:before {
+  content: '\f0a55';
+}
+.Tripdocs-back_to_top:before {
+  content: '\f0a56';
+}
+.Tripdocs-close:before {
+  content: '\f0a6a';
+}
+.Tripdocs-add:before {
+  content: '\f0ae7';
+}
+.Tripdocs-up_arrow:before {
+  content: '\f0ae8';
+}
+.Tripdocs-delete:before {
+  content: '\f0aeb';
+}
+.Tripdocs-duplicate:before {
+  content: '\f0aec';
+}
+.Tripdocs-edit:before {
+  content: '\f0aed';
+}
+.Tripdocs-information:before {
+  content: '\f0aee';
+}
+.Tripdocs-zoom_in:before {
+  content: '\f0af3';
+}
+.Tripdocs-zoom_out:before {
+  content: '\f0af4';
+}
+.Tripdocs-down_arrow:before {
+  content: '\f0af5';
+}
+.Tripdocs-preview-close:before {
+  content: '\f0af8';
+}
+.Tripdocs-repeal:before {
+  content: '\f0af9';
+}
+.Tripdocs-file_text:before {
+  content: '\f0afa';
+}
+.Tripdocs-redo:before {
+  content: '\f0afb';
+}
+.Tripdocs-remove:before {
+  content: '\f0afc';
+}
+.Tripdocs-history:before {
+  content: '\f0afd';
+}
+.Tripdocs-warning:before {
+  content: '\f0afe';
+}
+.Tripdocs-more:before {
+  content: '\f0aff';
+}
+.Tripdocs-photo:before {
+  content: '\f0b00';
+}
+.Tripdocs-list:before {
+  content: '\f0b01';
+}
+.Tripdocs-export:before {
+  content: '\f0b02';
+}
+.Tripdocs-import:before {
+  content: '\f0b03';
+}
+.Tripdocs-share:before {
+  content: '\f0b04';
+}
+.Tripdocs-clear:before {
+  content: '\f0b05';
+}
+.Tripdocs-minus_squra:before {
+  content: '\f0b06';
+}
+.Tripdocs-plus_squra:before {
+  content: '\f0b07';
+}
+.Tripdocs-help:before {
+  content: '\f0b08';
+}
+.Tripdocs-preview_open:before {
+  content: '\f0b09';
+}
+.Tripdocs-read_only:before {
+  content: '\f0b0a';
+}
+.Tripdocs-flle_add:before {
+  content: '\f0b0b';
+}
+.Tripdocs-menu:before {
+  content: '\f0b0c';
+}
+.Tripdocs-mine:before {
+  content: '\f0b0d';
+}
+.Tripdocs-home:before {
+  content: '\f0b0e';
+}
+.Tripdocs-find:before {
+  content: '\f0b1c';
+}
+.Tripdocs-right_arrow:before {
+  content: '\f0b0f';
+}
+.Tripdocs-left_arrow:before {
+  content: '\f0b10';
+}
+.Tripdocs-drop_down:before {
+  content: '\f0b11';
+}
+.Tripdocs-drop_right:before {
+  content: '\f0b12';
+}
+.Tripdocs-drop_left:before {
+  content: '\f0b13';
+}
+.Tripdocs-drop_rightt2:before {
+  content: '\f0b14';
+}
+.Tripdocs-drop_left2:before {
+  content: '\f0b15';
+}
+.Tripdocs-sort:before {
+  content: '\f0b16';
+}
+.Tripdocs-drop_up:before {
+  content: '\f0b17';
+}
+.Tripdocs-upper_right:before {
+  content: '\f0b18';
+}
+.Tripdocs-lower_right:before {
+  content: '\f0b19';
+}
+.Tripdocs-lower_left:before {
+  content: '\f0b1a';
+}
+.Tripdocs-upper_left:before {
+  content: '\f0b1b';
+}
+.Tripdocs-cut:before {
+  content: '\f0b1d';
+}
+.Tripdocs-crop:before {
+  content: '\f0b1e';
+}
+.Tripdocs-comment_add:before {
+  content: '\f0b1f';
+}
+.Tripdocs-comment_delete:before {
+  content: '\f0b20';
+}
+.Tripdocs-comment-text:before {
+  content: '\f0b21';
+}
+.Tripdocs-comment_question:before {
+  content: '\f0b22';
+}
+.Tripdocs-comment-processing:before {
+  content: '\f0b23';
+}
+.Tripdocs-comment_single:before {
+  content: '\f0b24';
+}
+.Tripdocs-comment_multiple:before {
+  content: '\f0b25';
+}
+.Tripdocs-comment-check:before {
+  content: '\f0b26';
+}
+.Tripdocs-no_border:before {
+  content: '\f0b27';
+}
+.Tripdocs-paste:before {
+  content: '\f0b28';
+}
+.Tripdocs-fileWord:before {
+  content: '\f0b29';
+}
+.Tripdocs-add_link:before {
+  content: '\f0b2a';
+}
+.Tripdocs-fdelete_link:before {
+  content: '\f0b2b';
+}
+.Tripdocs-video:before {
+  content: '\f0b2c';
+}
+.Tripdocs-file_excel:before {
+  content: '\f0b2d';
+}
+.Tripdocs-save:before {
+  content: '\f0b2e';
+}
+.Tripdocs-read:before {
+  content: '\f0b2f';
+}
+.Tripdocs-slide:before {
+  content: '\f0b30';
+}
+.Tripdocs-laptop:before {
+  content: '\f0b31';
+}
+.Tripdocs-code_tags:before {
+  content: '\f0b32';
+}
+.Tripdocs-code_braces:before {
+  content: '\f0b33';
+}
+.Tripdocs-split_line:before {
+  content: '\f0b34';
+}
+.Tripdocs-italic:before {
+  content: '\f0b35';
+}
+.Tripdocs-text_color_fill:before {
+  content: '\f0b36';
+}
+.Tripdocs-underline:before {
+  content: '\f0b37';
+}
+.Tripdocs-strikethrough:before {
+  content: '\f0b38';
+}
+.Tripdocs-quote:before {
+  content: '\f0b39';
+}
+.Tripdocs-text_color:before {
+  content: '\f0b3a';
+}
+.Tripdocs-cell_color_fill:before {
+  content: '\f0b3b';
+}
+.Tripdocs-format_clear:before {
+  content: '\f0b3c';
+}
+.Tripdocs-bold:before {
+  content: '\f0b3d';
+}
+.Tripdocs-enter:before {
+  content: '\f0b3e';
+}
+.Tripdocs-clear_format:before {
+  content: '\f0b3f';
+}
+.Tripdocs-format_brush:before {
+  content: '\f0b40';
+}
+.Tripdocs-color_fill:before {
+  content: '\f0b41';
+}
+.Tripdocs-combine:before {
+  content: '\f0b42';
+}
+.Tripdocs-split:before {
+  content: '\f0b43';
+}
+.Tripdocs-add_col_before:before {
+  content: '\f0b44';
+}
+.Tripdocs-add_col_after:before {
+  content: '\f0b45';
+}
+.Tripdocs-add_row_above:before {
+  content: '\f0b46';
+}
+.Tripdocs-add_row_below:before {
+  content: '\f0b47';
+}
+.Tripdocs-delete_row:before {
+  content: '\f0b48';
+}
+.Tripdocs-delete_col:before {
+  content: '\f0b49';
+}
+.Tripdocs-delete_table:before {
+  content: '\f0b4a';
+}
+.Tripdocs-table:before {
+  content: '\f0b4b';
+}
+.Tripdocs-head6:before {
+  content: '\f0b4c';
+}
+.Tripdocs-head5:before {
+  content: '\f0b4d';
+}
+.Tripdocs-head4:before {
+  content: '\f0b4e';
+}
+.Tripdocs-head3:before {
+  content: '\f0b4f';
+}
+.Tripdocs-head2:before {
+  content: '\f0b50';
+}
+.Tripdocs-head1:before {
+  content: '\f0b51';
+}
+.Tripdocs-head:before {
+  content: '\f0b52';
+}
+.Tripdocs-outdent:before {
+  content: '\f0b53';
+}
+.Tripdocs-unordered:before {
+  content: '\f0b54';
+}
+.Tripdocs-lnent:before {
+  content: '\f0b57';
+}
+.Tripdocs-align_middle:before {
+  content: '\f0b58';
+}
+.Tripdocs-back_to_top:before {
+  content: '\f0b59';
+}
+.Tripdocs-align_bottom:before {
+  content: '\f0b5a';
+}
+.Tripdocs-line_height:before {
+  content: '\f0b5b';
+}
+.Tripdocs-align-right:before {
+  content: '\f0b5c';
+}
+.Tripdocs-align_justify:before {
+  content: '\f0b5d';
+}
+.Tripdocs-align_left:before {
+  content: '\f0b5e';
+}
+.Tripdocs-align_center:before {
+  content: '\f0b5f';
+}
+.Tripdocs-drop_up_fill:before {
+  content: '\f0b60';
+}
+.Tripdocs-drop_down_fill:before {
+  content: '\f0b61';
+}
+.Tripdocs-tasklist:before {
+  content: '\f0b56';
+}
+.Tripdocs-ordered:before {
+  content: '\f0b55';
+}
+.Tripdocs-log_out:before {
+  content: '\f0a54';
+}
+.Tripdocs-login_in:before {
+  content: '\f0af7';
+}
+.Tripdocs-checkbox_selected:before {
+  content: '\f0c02';
+}
+.Tripdocs-checkbox:before {
+  content: '\f0c03';
+}
+.Tripdocs-feedback:before {
+  content: '\f0c04';
+}
+.Tripdocs-highlight_fill:before {
+  content: '\f0c05';
+}
+.Tripdocs-highlight:before {
+  content: '\f0c06';
+}
+.Tripdocs-keyboard:before {
+  content: '\f0c07';
+}
+.Tripdocs-zoom_in:before {
+  content: '\f0c08';
+}
+.Tripdocs-zoom_out:before {
+  content: '\f0c09';
+}

@@ -1,0 +1,55 @@
+.anchor-sticky-wrapper {
+  .doc-directory-title {
+    position: relative;
+    z-index: 2;
+    margin: 10px 18px;
+    display: grid;
+    grid-template-areas: '1 1 1';
+    align-items: center;
+    max-width: 280px;
+
+    &::after {
+      content: '';
+      width: 95%;
+      height: 1px;
+      background-color: rgba(0, 0, 0, 0.05);
+      position: absolute;
+      bottom: -10px;
+    }
+
+    .Tripdocs-drop_left,
+    .Tripdocs-drop_right,
+    .anticon.anticon-setting {
+      font-size: 14px;
+      color: #4a535d;
+
+      &:hover {
+        color: #3264ff;
+        cursor: pointer;
+      }
+    }
+
+    .outline-title {
+      display: flex;
+      margin: 0 1em;
+      justify-content: flex-start;
+      align-items: center;
+
+      .outline-title-btn {
+        margin-right: 1em;
+        font-weight: 600;
+      }
+
+      .outline-title-text {
+        user-select: none;
+        color: rgba(0, 0, 0, 0.75);
+        font-family: PingFangSC-Semibold;
+        font-size: 16px;
+        font-weight: 600;
+        height: 20px;
+        line-height: 20px;
+        width: 32px;
+      }
+    }
+  }
+}

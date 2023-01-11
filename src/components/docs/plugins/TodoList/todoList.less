@@ -1,0 +1,83 @@
+// 没有用到
+.editor_container_wrap {
+  height: 100%;
+
+  .todoList ul {
+    -webkit-print-color-adjust: exact;
+    -webkit-box-direction: normal;
+    font-family: LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, Segoe UI, PingFang SC,
+      Microsoft Yahei, Hiragino Sans GB, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji !important;
+    font-size: 16px;
+    line-height: 1.68;
+    color: #1f2329;
+    font-variant-ligatures: no-common-ligatures;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: pre-wrap;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+    padding-left: 28px;
+    list-style-type: none;
+    margin-left: -6px;
+  }
+
+  .todoList ul.r-list-check li:before,
+  .todoList ul.r-list-done li:before {
+    content: ' ';
+    display: inline-block;
+    position: relative;
+    line-height: normal;
+    font-size: 16px;
+    bottom: 3px;
+    border-radius: 2px;
+    border: 1px solid #2b2f36;
+    // background-position: 50%;
+    white-space: normal;
+  }
+
+  .todoList ul.r-list-check li:before,
+  .todoList ul.r-list-do li:before {
+    content: ' ';
+    display: inline-block;
+    position: relative;
+    line-height: normal;
+    font-size: 16px;
+    bottom: 3px;
+    border-radius: 2px;
+    border: 1px solid #2b2f36;
+    // background-position: 50%;
+    white-space: normal;
+  }
+
+  .todoList ul.r-list-check li:before,
+  .todoList ul.r-list-done li:before {
+    width: 14px;
+    height: 14px;
+    margin-left: -22px;
+    margin-right: 6px;
+  }
+
+  .todoList ul.r-list-check li:before,
+  .todoList ul.r-list-do li:before {
+    width: 14px;
+    height: 14px;
+    margin-left: -22px;
+    margin-right: 6px;
+  }
+
+  .todoList ul.r-list-done li:before {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PGRlZnM+PHN0eWxlLz48L2RlZnM+PHBhdGggZD0iTTE5My4wOTQgNjUuMzA1bC05MC43MDUgOTAuOTMxLTM5LjUxLTM5LjkzNGMtNy4wODQtNy4wNTYtMTguNTQyLTcuMDU2LTI1LjU5OCAwLTcuMDU1IDcuMDU1LTcuMDU1IDE4LjQ4NSAwIDI1LjU0bDQ1Ljg2IDQ2LjExNWMxMC42MTIgMTAuNjk2IDI3Ljk0IDEwLjY5NiAzOC41OC4wMjhsOTYuOTk4LTk3LjE2N2M3LjA1NS03LjA1NiA3LjA4NC0xOC40ODUgMC0yNS41Ny03LjA4NC03LjAyNy0xOC41Ny03LjAyNy0yNS42MjUuMDU3eiIgZmlsbD0iIzM0NDc1ZSIgY2xhc3M9InRyYW5zZm9ybS1ncm91cCIvPjwvc3ZnPg==);
+    background-size: contain;
+    border-color: #2b2f36;
+  }
+
+  .todoList ul.r-list-do li:before {
+    background-size: contain;
+    border-color: #2b2f36;
+  }
+}

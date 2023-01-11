@@ -1,0 +1,36 @@
+.help-block {
+  .help-button-wrap {
+    width: 34px;
+    height: 144px; // 3 个图标
+    // height: 100px; // 2个图标
+    position: absolute;
+    top: -144px; // 3 个图标
+    // top: -100px; // 2个图标
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .help-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+      box-shadow: 0px 2px 4px 0px rgba(188, 188, 188, 0.5);
+      height: 34px;
+      width: 34px;
+      border-radius: 17px;
+      cursor: pointer;
+      z-index: 100;
+      margin-bottom: 15px;
+      color: #000;
+
+      &:hover {
+        color: rgb(50, 100, 255);
+      }
+    }
+  }
+
+  .more-tip-button {
+  }
+}

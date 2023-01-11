@@ -1,0 +1,38 @@
+[id$='point1'],
+[id$='point2'],
+[id$='point3'],
+[id$='point4'] {
+  &[data-visible] {
+    background: rgb(24, 144, 255);
+  }
+
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  pointer-events: auto;
+}
+
+[id$='point1'] {
+  top: -6px;
+  left: -6px;
+  cursor: nwse-resize;
+}
+
+[id$='point2'] {
+  bottom: -6px;
+  left: -6px;
+  cursor: nesw-resize;
+}
+
+[id$='point3'] {
+  top: -6px;
+  right: -6px;
+  cursor: nesw-resize;
+}
+
+[id$='point4'] {
+  bottom: -6px;
+  right: -6px;
+  cursor: nwse-resize;
+}

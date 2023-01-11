@@ -1,0 +1,130 @@
+/*
+  处理图片拖拽
+  */
+
+.excalidraw-button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+.excalidraw-button.selected {
+  outline: rgb(24, 144, 255) solid 1px;
+  user-select: none;
+}
+
+.editor-shell .editor-image {
+  cursor: default;
+  display: inline-block;
+  position: relative;
+}
+
+.editor-shell .editor-image img {
+  max-width: 100%;
+}
+
+.editor-shell .editor-image img.focused {
+  outline: 2px solid rgb(60, 132, 244);
+  user-select: none;
+}
+
+.editor-shell .editor-image .image-caption-container .tree-view-output {
+  margin: 0;
+  border-radius: 0;
+}
+
+.editor-shell .editor-image .image-caption-container {
+  display: block;
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  min-width: 100px;
+  color: #000;
+  overflow: hidden;
+}
+
+.editor-shell .editor-image .image-caption-button {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  width: 30%;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 100px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+}
+
+.editor-shell .editor-image .image-caption-button:hover {
+  background-color: rgba(60, 132, 244, 0.5);
+}
+
+.editor-shell .editor-image .image-resizer {
+  display: block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-color: #1890ff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+}
+
+.editor-shell .editor-image .image-resizer.image-resizer-n {
+  top: -6px;
+  left: 48%;
+  cursor: n-resize;
+}
+
+.editor-shell .editor-image .image-resizer.image-resizer-ne {
+  top: -6px;
+  right: -6px;
+  cursor: ne-resize;
+}
+
+.editor-shell .editor-image .image-resizer.image-resizer-e {
+  bottom: 48%;
+  right: -6px;
+  cursor: e-resize;
+}
+
+.editor-shell .editor-image .image-resizer.image-resizer-se {
+  bottom: 1.5px;
+  right: -6px;
+  cursor: nwse-resize;
+}
+
+.editor-shell .editor-image .image-resizer.image-resizer-s {
+  bottom: 1.5px;
+  left: 48%;
+  cursor: s-resize;
+}
+
+.editor-shell .editor-image .image-resizer.image-resizer-sw {
+  bottom: 1.5px;
+  left: -6px;
+  cursor: sw-resize;
+}
+
+.editor-shell .editor-image .image-resizer.image-resizer-w {
+  bottom: 48%;
+  left: -6px;
+  cursor: w-resize;
+}
+
+.editor-shell .editor-image .image-resizer.image-resizer-nw {
+  top: -6px;
+  left: -6px;
+  cursor: nw-resize;
+}

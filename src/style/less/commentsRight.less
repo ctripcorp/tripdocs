@@ -1,0 +1,76 @@
+@import './variables.less';
+
+.editor_container_wrap {
+  height: 100%;
+
+  .commentCardDiv {
+    position: absolute;
+    outline: none;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    .commentCardDiv-input {
+      display: none;
+    }
+
+    .commentCardDiv-menu {
+      display: none;
+    }
+  }
+
+  .commentCardDiv:focus {
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
+    border-top-width: 5px;
+    border-top-color: yellow;
+
+    .commentCardDiv-input {
+      display: block;
+    }
+
+    .commentCardDiv-menu {
+      display: block;
+    }
+  }
+
+  .commentCardDiv:focus-within {
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
+    border-top-width: 5px;
+    border-top-color: yellow;
+
+    .commentCardDiv-input {
+      display: block;
+    }
+
+    .commentCardDiv-menu {
+      display: block;
+    }
+  }
+
+  .show-enter {
+    opacity: 0.01;
+    transform: translateX(50%);
+  }
+
+  .show-enter-active {
+    opacity: 1;
+    transform: scale(1) translateX(0%);
+    transition: all 100ms linear;
+  }
+
+  .show-exit {
+    opacity: 1;
+    transform: scale(1) translateX(0%);
+  }
+
+  .show-exit-active {
+    opacity: 0.01;
+    transform: scale(1) translateX(50%);
+    transition: all 100ms linear;
+  }
+}

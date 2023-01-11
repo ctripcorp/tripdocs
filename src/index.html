@@ -1,0 +1,65 @@
+<!--
+ * @Author: pym
+ * @Date: 2022-02-09 20:47:00
+ * @LastEditors: pym
+ * @Description: 
+ * @LastEditTime: 2022-03-08 16:57:23
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=false, maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+        body {
+            width: 80vw;
+            height: 120px;
+            display: flex;
+            overflow: auto;
+            flex-flow: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .block {
+            width: 30%;
+            height: 30%;
+        }
+
+        #root {
+            height: 100vh;
+            width: 100vw;
+            /* 移动端不用 */
+            /* max-width: 90vh; */
+        }
+
+        div.editor_container_wrap>div.editor-container> :first-child {
+            /* 移动端不用 */
+            /* margin: 24px 0px; */
+            border: 1px solid rgb(232, 232, 232);
+            box-shadow: rgba(115, 115, 115, 0.08) 0px 2px 8px;
+        }
+    </style>
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/vConsole/3.9.0/vconsole.min.js"></script> -->
+    <!-- <script src="http://localhost:5385/jsPDF/jspdf.umd.min.js"></script> -->
+</head>
+
+<body>
+
+
+
+    <!-- 使用注入方式导入 sdk，需要设置对应的 height/width/max-height，以便让编辑器正确表现 -->
+    <div id="root"></div>
+
+
+
+    <!-- noscript 元素用来定义在脚本未被执行时的替代内容（文本）home。 -->
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+@hover-gray: #f2f4f6;
+
+.editor_container_wrap {
+  height: 100%;
+  .component-edit-link {
+    top: -9999px;
+    left: -9999px;
+    position: absolute;
+  }
+  .component-edit-link,
+  .component-link-buttons {
+    z-index: 1;
+    padding: 5px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0; 0; 0; 0.2);
+
+    .link_text {
+      overflow: hidden; //超出的文本隐藏
+      text-overflow: ellipsis; //溢出用省略号显示
+      white-space: nowrap; //溢出不换行
+      max-width: 180px;
+    }
+
+    .mask {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .href {
+      max-width: 230px;
+      min-width: 230px;
+      width: 230px;
+      margin-left: 5px;
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 6px;
+    }
+
+    .edit-wrap {
+      padding: 8px 16px;
+
+      .txt {
+        margin-right: 12px;
+        font-size: 16px;
+        width: 48px;
+      }
+
+      .btn {
+        margin: 0;
+        width: 60px;
+      }
+    }
+
+    .wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0;
+
+      .link-modify-edit {
+        // margin-left: auto;
+        // margin-right: 8px;
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+          background: @hover-gray;
+        }
+      }
+
+      .link-modify-delete {
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+          background: @hover-gray;
+        }
+      }
+    }
+  }
+}

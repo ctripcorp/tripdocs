@@ -1,0 +1,34 @@
+.imageContainer:hover,
+.imageContainer-mobile {
+  .image-inner-button-wrap {
+    display: flex;
+    font-weight: 300;
+  }
+}
+
+.image-inner-button-wrap {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  padding: 0 4px;
+  background: rgba(38, 38, 38, 0.6);
+  border-radius: 4px;
+  z-index: 80;
+
+  .image-inner-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding: 4px;
+    margin: 0 6px;
+    color: #fff;
+
+    :hover {
+      color: #d0d0d0;
+      cursor: pointer;
+    }
+  }
+}

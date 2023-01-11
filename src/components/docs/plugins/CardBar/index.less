@@ -1,0 +1,21 @@
+.editor_container_wrap {
+  height: 100%;
+
+  .cardbar {
+    user-select: none;
+    pointer-events: none;
+    display: none;
+    position: absolute;
+    top: -36px;
+    left: 0;
+    white-space: nowrap;
+  }
+
+  .cardbar > * {
+    pointer-events: initial;
+  }
+
+  .cardbar.selected {
+    display: block;
+  }
+}

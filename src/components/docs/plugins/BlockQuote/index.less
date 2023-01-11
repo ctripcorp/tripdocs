@@ -1,0 +1,25 @@
+.editor_container_wrap {
+  height: 100%;
+  .slate-editable {
+    blockquote {
+      // blockquote.component-block-quote {
+
+      border-left: 3px solid #eee;
+      margin: 0;
+      padding-left: 10px;
+      color: #aaa;
+      margin-top: 22px;
+      padding: 10px;
+    }
+
+    blockquote + blockquote {
+      // blockquote.component-block-quote + blockquote.component-block-quote {
+
+      padding-top: 0px;
+      margin-top: 0px;
+    }
+    blockquote + :not(blockquote) {
+      margin-top: 20px !important;
+    }
+  }
+}

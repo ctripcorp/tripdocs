@@ -1,0 +1,28 @@
+.overlay-tmp-wrap {
+  .overlay-tmp {
+    border-radius: 4px;
+
+    .drag-handle {
+      position: relative;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      z-index: 4;
+
+      &:hover {
+        cursor: grab;
+        background-color: #f4f4f4;
+      }
+
+      .drag-handle__container {
+        .drag-handle__button {
+          font-size: 18px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
