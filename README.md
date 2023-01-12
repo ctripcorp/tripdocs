@@ -9,18 +9,22 @@
 </div>
 
 
-## TripDocsSDK | [English Version](readme_en.md)
+# TripDocsSDK | [English Version](readme_en.md)
 
 <!-- MarkdownTOC -->
 
-- [介绍](#介绍)
-- [功能特色](#功能特色)
-- [截图](#截图)
-- [开发环境](#开发环境)
-- [生产环境](#生产环境)
-- [插件支持情况](#插件支持情况)
-- [感谢](#感谢)
-- [协议](#协议)
+
+
+- [TripDocsSDK | English Version](#tripdocssdk--english-version)
+  - [介绍](#介绍)
+  - [功能特色](#功能特色)
+  - [截图](#截图)
+  - [开发环境](#开发环境)
+  - [生产环境](#生产环境)
+  - [技术文档](#技术文档)
+  - [插件支持情况](#插件支持情况)
+  - [感谢](#感谢)
+  - [协议](#协议)
 
 <!-- /MarkdownTOC -->
 
@@ -67,15 +71,16 @@ http://127.0.0.1:3001/
 
 ```bash
 # 构建npm包
-npm run buildPC 
+npm run buildNpm 
 
 or
 
 # 构建cdn包
-npm run buildNpm 
+npm run buildPC 
 ```
 
-
+## 技术文档
+文档补充中，[文档链接](https://ctripcorp.github.io/tripdocs/apiDocs.html)
 ## 插件支持情况
 
 
