@@ -27,11 +27,11 @@
 
 ## Introduction
 
- + TripDocsSDK is based on Ctrip internal  rich text editors kernel, refining a general, modern, stable, collaborative, and can be used for production  modern rich text editors.
+ + **TripDocsSDK** is based on Ctrip internal  rich text editors kernel, refining a general, modern, stable, collaborative, and can be used for production  modern rich text editors.
  
 + At present, TripDocsSDK has integrated TripDocs system and Trippal briefing system, and iDev system is being connected. In TripDocs system, it has been running for more than 1 year and has accumulated 2000+ documents.
  
-+ TripDocsSDK relies on slatejs, yjs and reactjs. And on the basis of slatejs, the second development  includes a lot of components and a large number of error correction mechanism, making the editor more stable and reliable.
++ **TripDocsSDK** relies on slatejs, yjs and reactjs. And on the basis of slatejs, the second development  includes a lot of components and a large number of error correction mechanism, making the editor more stable and reliable.
 
 ## Features
 
