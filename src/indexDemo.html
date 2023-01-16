@@ -5,31 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  
+
 </head>
 
 <body>
     <div id="root"></div><noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="editorContainer-cc0b32c1bf864bad923dd05ef027bf75"></div>
-    <script>function setCookie(cname, val, expire = 30) {
-            setMyCookie(cname, val, expire)
-            // console.log('setCookie', cname, val, expire)
-        }
-        function setMyCookie(c_name, value, expire_days) {
-            let exDate = new Date();
-            exDate.setDate(exDate.getDate() + expire_days);
-            document.cookie =
-                c_name +
-                '=' +
-                encodeURIComponent(value) +
-                ';expires=' +
-                exDate.toUTCString() +
-                ';path=/';
-            // console.log('setMyCookie', c_name, value, expire_days)
-        }
+    <div id="editorContainer-cc0b32c1bf864bad923dd05ef027bf75" style="height: 100vh;"></div>
+    <script>
 
-        let envCookieKey = "principal_dev"
-        setCookie(envCookieKey, 'TripDocs001')
         const docId = '123'
         const container = document.getElementById(`editorContainer-${docId}`)
         const defaultDocId = 'cc0b32c1bf864bad923dd05ef027bf75'
@@ -56,7 +39,7 @@
                 userName: 'TripDocs001',
             },
             showHoveringCommentButton: true,
-            showGlobalComment: true,
+            showGlobalComment: false,
             defaultCommentData: [
                 {
                     userName: 'TripDocs001',
@@ -171,7 +154,8 @@
             readOnly: readOnly,
             isWideMode: false,
         };
-        const editor = new window.tripdocs.Editor(options, container)</script>
+        const editor = new window.tripdocs.Editor(options, container)
+    </script>
 </body>
 
 </html>

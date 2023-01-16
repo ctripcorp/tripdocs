@@ -1,0 +1,142 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><link href="index.css" rel="stylesheet"><script src="index.js"></script></head><body><div id="root"></div><noscript>You need to enable JavaScript to run this app.</noscript><div id="editorContainer-cc0b32c1bf864bad923dd05ef027bf75" style="height: 100vh;"></div><script>const docId = '123'
+        const container = document.getElementById(`editorContainer-${docId}`)
+        const defaultDocId = 'cc0b32c1bf864bad923dd05ef027bf75'
+        const socketOpt = {
+            secure: false,
+            fake: true,
+            socketUrl: 'offline',
+            docId: defaultDocId,
+            token: 'fcefbbc80460101f90741d5fe05b82db',
+            auth: '{"Str_TimeStamp":"2021-11-23 03:03:46","Str_Signature":"b8b962bf243d6aae9a8224ce5e5b12e7","SessionID":"dev:f87b99924b0f464293e5cd03d4e60c46eeB4RvD6SRemUDOX8X0QhJafiKtCS17r"}',
+        };
+
+        const mdOpt = {
+            isMdEditor: false,
+            readOnly: true,
+        };
+        const readOnly = false || (mdOpt.isMdEditor && mdOpt.readOnly);
+        const options = {
+            docId: socketOpt.docId,
+            tocPlacement: 'left',
+            socketUrl: socketOpt.socketUrl,
+            userInfo: {
+                employee: 'TripDocs001' + Math.random(),
+                userName: 'TripDocs001',
+            },
+            showHoveringCommentButton: true,
+            showGlobalComment: false,
+            defaultCommentData: [
+                {
+                    userName: 'TripDocs001',
+                    content: '啊1啊',
+                    commentId: '7ed005256-6569-410c-a723-a239eff10f9e',
+                    rangeId:
+                        '{"selection":{"anchor":{"path":[1,0],"offset":6},"focus":{"path":[1,0],"offset":4}},"anchorOffset":6,"focusOffset":4,"refContent":"as","anchorId":"d58a433c-d37b-4125-b0cf-3833c5b3a35e_1fhnmadku1111"}',
+                    time: 1642141810307,
+                    mentionedMemberList: [],
+                    replyTarget: null,
+                },
+                {
+                    userName: 'TripDocs002',
+                    content: '啊啊',
+                    commentId: '7e005256-6569-410c-a723-a239eff10f9e',
+                    rangeId:
+                        '{"selection":{"anchor":{"path":[1,0],"offset":6},"focus":{"path":[1,0],"offset":4}},"anchorOffset":6,"focusOffset":4,"refContent":"as","anchorId":"d58a433c-d37b-4125-b0cf-3833c5b3a35e_1fhnmadku1111"}',
+                    time: 1642141810307,
+                    mentionedMemberList: [],
+                    replyTarget: null,
+                },
+                {
+                    userName: 'TripDocs003',
+                    content: '啊ß',
+                    commentId: '7e005256-6569-410c-a723-a239eff10f9e1',
+                    rangeId:
+                        '{"selection":{"anchor":{"path":[1,0],"offset":2},"focus":{"path":[1,0],"offset":4}},"anchorOffset":2,"focusOffset":4,"refContent":"浪浪22swwwwwwwwwwwwww﻿wwwwwwwwwwwwwwwwwwwwwwwwwwaaaaawwwwwwwwwwwwwwwwwwwwwwwwwaaaaaaaaaaaaaaaaaaaaa的说法2222222222`222222222`222222费费","anchorId":"b4c0de79-f4e0-43c3-997f-2dac0d20ee0a_1fheu232s1111"}',
+                    time: 1642141810307,
+                    mentionedMemberList: [],
+                    replyTarget: null,
+                },
+                {
+                    userName: 'TripDocs004',
+                    commentId: '94cb6d10-8201-4276-affd-d4e9f593d4ee',
+                    rangeId:
+                        '{"selection":{"anchor":{"path":[1,0],"offset":14},"focus":{"path":[1,0],"offset":17}},"anchorOffset":14,"focusOffset":17,"refContent":"喂喂喂","anchorId":"d58a433c-d37b-4125-b0cf-3833c5b3a35e_1fhnmadku1111"}',
+                    time: 1642141905559,
+                    mentionedMemberList: [],
+                    replyTarget: null,
+                    content: '2',
+                },
+                {
+                    userName: 'TripDocs005',
+                    commentId: '243ea64b-0a4e-4f36-be6c-445d151a7fc4',
+                    rangeId:
+                        '{"selection":{"anchor":{"path":[1,0],"offset":15},"focus":{"path":[1,0],"offset":22}},"anchorOffset":15,"focusOffset":22,"refContent":"喂喂喂喂喂喂喂","anchorId":"d58a433c-d37b-4125-b0cf-3833c5b3a35e_1fhnmadku1111"}',
+                    time: 1642141910395,
+                    mentionedMemberList: [],
+                    replyTarget: null,
+                    content: '4',
+                },
+            ],
+
+            mentionCallback: mentionInfo => {
+                console.log('mentionCallback mentionInfo', mentionInfo);
+            },
+            getUserList: str => {
+                return new Promise(resolve => {
+                    const data = [];
+                    setTimeout(() => {
+                        if (!str) {
+                            console.log('origin getUserList', undefined);
+                            return resolve(undefined);
+                        }
+                        console.log('origin getUserList', data);
+                        return resolve(data);
+                    }, 2000);
+                });
+            },
+            getDocToken: () => {
+                return new Promise(resolve => {
+                    setTimeout(() => {
+                        return resolve({
+                            docToken: 'fcefbbc80460101f90741d5fe05b1111'
+                        });
+                    }, 2000);
+                });
+            },
+            isInElectron: true,
+            linkClickCallBack: (href) => {
+                console.log('linkClickCallBack', href)
+            },
+            shareCallback: shareInfo => {
+                console.log('{{shareCB}}', shareInfo);
+            },
+            docStatusCallback: status => {
+                console.log('docStatusCallback status', status);
+            },
+            commentCallback: commentInfo => {
+                // TODO 评论时间时间戳毫秒
+                console.log('commentCallback commentInfo', commentInfo);
+            },
+            fake: socketOpt.fake,
+            docToken: socketOpt.token,
+            identityauth2: socketOpt.auth,
+            secure: socketOpt.secure,
+            get defaultValue() {
+                // if (this.socketUrl === 'offline') {
+                //     return nativeDoc;
+                // }
+                return undefined;
+            },
+            initCallback: () => {
+                // window.tripdocs.editorsMap[defaultDocId].api.setIsShowAnchor(false);
+                console.log('initCallback');
+            },
+            onSlateChange: value => {
+                // console.log('------', value);
+            },
+            // defaultValue:undefined,
+            isMdEditor: mdOpt.isMdEditor,
+            readOnly: readOnly,
+            isWideMode: false,
+        };
+        const editor = new window.tripdocs.Editor(options, container)</script></body></html>
