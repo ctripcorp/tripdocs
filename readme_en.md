@@ -14,14 +14,15 @@
 
 <!-- MarkdownTOC -->
 
-- [Introduction](#Introduction) 
-- [Features](#Features) 
-- [Screenshot](#Screenshot) 
-- [Development](#Development) 
-- [Production](#Production) 
-- [Plugings](#Plugings) 
-- [Thanks](#Thanks) 
-- [Licence](#Licence)
+- [TripDocsSDK | 中文版](#tripdocssdk--中文版)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [Development](#development)
+- [Production](#production)
+- [Plugings](#plugings)
+- [Thanks](#thanks)
+- [Licence](#licence)
 
 <!-- /MarkdownTOC -->
 
@@ -113,7 +114,7 @@ npm run buildNpm
 - [ ] Media - Pictures 
 - [ ] Media - Video 
 - [ ] Media - Audio 
-- [ ] Emoji
+- [x] Emoji (Enter "/" to use)
 
 ## Thanks
 
