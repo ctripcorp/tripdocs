@@ -1,5 +1,9 @@
 <div align="center">
 
+dev branch unavailable！！Because We are significantly refactoring the project.
+
+The old version is still available and will continue to be maintained, and the new version will be compatible with it🌞.
+
 <h1 style="border-bottom: none">
      <img width="350" src="tripdocslogo.png" alt="logo" /><br />
     TripDocsSDK is an application  framework for Slate and React to make it easier to build modern rich text editors.
@@ -14,14 +18,15 @@
 
 <!-- MarkdownTOC -->
 
-- [Introduction](#Introduction) 
-- [Features](#Features) 
-- [Screenshot](#Screenshot) 
-- [Development](#Development) 
-- [Production](#Production) 
-- [Plugings](#Plugings) 
-- [Thanks](#Thanks) 
-- [Licence](#Licence)
+- [TripDocsSDK | 中文版](#tripdocssdk--中文版)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [Development](#development)
+- [Production](#production)
+- [Plugings](#plugings)
+- [Thanks](#thanks)
+- [Licence](#licence)
 
 <!-- /MarkdownTOC -->
 
@@ -113,7 +118,7 @@ npm run buildNpm
 - [ ] Media - Pictures 
 - [ ] Media - Video 
 - [ ] Media - Audio 
-- [ ] Emoji
+- [x] Emoji (Enter "/" to use)
 
 ## Thanks
 

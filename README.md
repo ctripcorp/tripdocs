@@ -1,5 +1,9 @@
 <div align="center">
 
+dev 分支不可使用，因为我们正在大幅度重构这个项目。
+
+老的版本依然可用而且会继续维护，新版本会兼容它。🌞
+
 <h1 style="border-bottom: none">
      <img width="350" src="tripdocslogo.png" alt="logo" /><br />
    现代在线协同文档编辑器应用框架
