@@ -5,7 +5,12 @@
    现代在线协同文档编辑器应用框架
     <br>
 </h1>
-
+<p align="center">
+  <a href="https://join.slack.com/t/tripdocshq/shared_invite/zt-1p4dernsl-kJ0W4jFBGLMVnCD120PFlg">
+    <img src="https://img.shields.io/badge/slack-tripdocs-brightgreen.svg?logo=slack">
+  </a>
+</p>
+<br/>
 </div>
 
 
