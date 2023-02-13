@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1 style="border-bottom: none">
-     <img width="350" src="tripdocslogo.png" alt="logo" /><br />
+     <img width="350" src="https://github.com/ctripcorp/tripdocs/raw/main/tripdocslogo.png" alt="logo" /><br />
    现代在线协同文档编辑器应用框架
     <br>
 </h1>
@@ -47,7 +47,7 @@
 - 其它特色功能：支持Markdown编辑和word解析。
 
 ## 截图
-![截图](/tripdocs.png)
+![截图](https://github.com/ctripcorp/tripdocs/raw/main/tripdocs.png)
 
 ## 开发环境
 
