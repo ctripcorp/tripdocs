@@ -5,7 +5,12 @@
     TripDocsSDK is an application  framework for Slate and React to make it easier to build modern rich text editors.
     <br>
 </h1>
-
+<p align="center">
+  <a href="https://join.slack.com/t/tripdocshq/shared_invite/zt-1p4dernsl-kJ0W4jFBGLMVnCD120PFlg">
+    <img src="https://img.shields.io/badge/slack-tripdocs-brightgreen.svg?logo=slack">
+  </a>
+</p>
+<br/>
 </div>
 
 ## TripDocsSDK | [中文版](readme.md)
