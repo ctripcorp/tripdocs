@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1 style="border-bottom: none">
-     <img width="350" src="tripdocslogo.png" alt="logo" /><br />
+     <img width="350" src="https://github.com/ctripcorp/tripdocs/raw/main/tripdocslogo.png" alt="logo" /><br />
     TripDocsSDK is an application  framework for Slate and React to make it easier to build modern rich text editors.
     <br>
 </h1>
@@ -45,7 +45,7 @@
 - Markdown editing and word parsing.
 
 ## Screenshot
-![Screenshot](/tripdocs.png)
+![Screenshot](https://github.com/ctripcorp/tripdocs/raw/main/tripdocs.png)
 
 ## Development
 
