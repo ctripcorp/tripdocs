@@ -33,6 +33,9 @@
 
 <!-- /MarkdownTOC -->
 
+
+
+
 ## 介绍
 
 + **TripDocsSDK**是基于携程内部在线文档编辑器内核，提炼的一款通用的，现代的、稳定的、支持协同的、可用于生产环境的在线文档编辑器。
@@ -132,6 +135,9 @@ npm run buildPC
 - [ ] 媒体-媒体库
 - [x] emoji ("\" 触发)
 
+## 打开协同编辑功能
+使用[slate-collaborative](https://github.com/cudr/slate-collaborative) 搭建服务器，修改项目中socketUrl字段为你的服务器地址即可
+
 ## 感谢
 
 感谢以下开源产品的支持
@@ -148,3 +154,10 @@ npm run buildPC
 ## 协议
 
 本项目采用 [MIT](./License.md) 协议
+
+
+## 社区交流：
+
+**需求，bug**以github的issue为主
+
+**技术交流**优先 [slack](https://join.slack.com/t/tripdocshq/shared_invite/zt-1p4dernsl-kJ0W4jFBGLMVnCD120PFlg)，其次qq: 721424295
